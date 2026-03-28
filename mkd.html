@@ -1,0 +1,88 @@
+<!DOCTYPE html><html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Мой Одностраничный Сайт</title>
+   
+   
+  
+
+
+</head>
+<body>
+  <nav>
+    <h2>Навигация</h2>
+    <ul>
+      <li><a href="#about">О нас</a></li>
+      <li><a href="index.html#tarif">Условия,тарифы и др.</a></li>
+      <li><a href="index.html#pon">Проверка PON</a></li>
+      <li><a href="wifi.html">Проверка WI-FI (антена)</a></li>
+      <li><a href="#mkd">Проверка МКД</a></li>
+      <li><a href="nstr.html">Настройка сети Windows 7/10</a></li>
+      <li><a href="skorost.html">Проверка скорости в Windows 7/10</a></li>
+      <li><a href="np.html">Создание НП</a></li>
+
+    </ul>
+  </nav>  <main>
+   
+
+     
+
+    <section id="mkd">
+        <h2 class="center">Проверка МКД (FTTB)</h2> 
+                  <p class="main__fttb-text">
+                      <p>Заходим по ip адресу комутатора в комутатор, смотрим приходит ли МАК, если да, то просим перезагрузить не получается вытащить и засунуть кабель, опять не получается отправить инженера.</p><br>
+      
+                  <h2 class="main_h3">Квартирный коммутатор: ZyXEL</h2>
+                  <p > Копируем IР-адрес в описание Lanbiiling2:<br>
+                  1. Пример Адреса: 172.16.24.13<br>
+                  2. Вставляем его в поиск гугла.<br>
+                  3. Водим: admin<br>
+                  4. Пароль 9sХv4Sm1Ue<br>
+                  5. Переходим в : <b>Management > МАС Address Таble</b><br>
+              </p>
+                        
+                   <img src="./img/f1.png" alt="Карьтнка3" class="main__pon-images" width="701px" height="423px">
+      
+              <p> 6. Выбираем порт, он указан в учётку Биллинга.<br>
+                  7. Нажимаем: Search<br>
+                  8. Проверяем сессию в Lanbilling2<br>
+                  9. Если МАК приходит, значит работает. Если нет, вытащить кабель из
+                  роутера и обратно вставить.<br>
+                  10. Просите абонента перезагрузить<br>
+              </p>   <br>
+      
+      
+                  <h2 class="main_h3">Квартирный коммутатор: Еdgе-соге</h2><br>
+      
+              <p> 1. Копируем IР-адрес в описание Lanbiiling2. (Пример Адреса: 172.16.24.95)<br>
+                  4. Водим: admin<br>
+                  5. Пароль 9sХv4Sm1Ue<br>
+                  6. Заходим в <b>МАС Address > Dynamic > Interface > Роrt > Query</b><br>
+              </p> 
+      
+                  <img src="./img/f2.png" alt="Карьтнка3" class="main__pon-images" width="701px" height="364px">
+      
+              <p> 7. Выбираем порт, он указан в учетке Lanbiiling2
+                  </p>
+      
+                  <img src="./img/f3.png" alt="Карьтнка3" class="main__pon-images" width="701px" height="325px">
+      
+              <p> 8. Проверяем сессию в Lanbiiling2. Сессия есть работает.
+                  </p>
+      
+                  <img src="./img/f4.png" alt="Карьтнка3" class="main__pon-images" width="701px" height="414px">
+      
+                  <h2 class="main_h3">C-DATA-OLT 172.16.11.10 @PON1</h2>
+              <p> 1. PON подключение: используем конструктор Secure CRT<br>
+                  2. PBeam-M5-300 @ Kart2_S-2 Радио подключение: Используем: UMMS.<br>
+                  3. Проверяем есть ли сессия по ip-адресу. Копируем, вставляем в Поиск Браузера.<br>
+                  4. MES-3500-24 (172.16.24.11) @ port 10. FTTB- подклю. Копируем ip-адрес и вставляем в Поиск Браузера.<br>
+              </p>  
+      
+              <img src="./img/f5.png" alt="Карьтнка3" class="main__pon-images" width="702px" height="395px">
+      
+          </div>
+      </section>
+      
