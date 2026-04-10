@@ -10,7 +10,11 @@
   font-size: 16px;
   font-family: "Nunito Sans", sans-serif;
 
-
+.centered-block {
+    width: 1050px;
+    margin: 0 auto; /* 0 сверху/снизу, auto по бокам */
+    background-color: #fdfffe;
+  }
 
 }body {
 display: flex;
