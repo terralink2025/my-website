@@ -17,6 +17,9 @@
 
 
 }body {
+
+    margin: 0 auto;    /* Центрирует всё содержимое */
+  padding: 0 50px;
 display: flex;
 min-height: 100px;
 background-color: #f4f4f4;
