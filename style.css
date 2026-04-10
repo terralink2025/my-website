@@ -1,7 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+.centered-block {
+    width: 1050px;
+    margin: 0 auto; /* 0 сверху/снизу, auto по бокам */
+    background-color: #fdfffe;
+  }
 
 * {
   box-sizing: border-box;
@@ -10,11 +14,7 @@
   font-size: 16px;
   font-family: "Nunito Sans", sans-serif;
 
-.centered-block {
-    width: 1050px;
-    margin: 0 auto; /* 0 сверху/снизу, auto по бокам */
-    background-color: #fdfffe;
-  }
+
 
 }body {
 display: flex;
